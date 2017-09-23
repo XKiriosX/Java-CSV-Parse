@@ -133,4 +133,11 @@ public class Company {
     public void setLink(String link) {
         this.link = link;
     }
+
+    @Override
+    public String toString() {
+        return "Company [name = " + name + ", shortTitle = " + shortTitle + ", dateUpdated = " + dateUpdate + ", adress = " + address
+                + ", dateFoundation = " + dateFoundation + ", countEmployees = " + countEmployees + ", auditor = " + auditor
+                + ", phone = " + phone + ", email = " + email + ", branch = " + branch + ", activity = " + activity + ", link = " + link + "]";
+    }
 }
